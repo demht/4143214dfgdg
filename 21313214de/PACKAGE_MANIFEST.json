@@ -1,0 +1,198 @@
+{
+  "package": "Debris-Full-Cloudflare-Hosting",
+  "date": "2026-09-10",
+  "license_endpoint": "https://debris-api.steamdemhr.workers.dev",
+  "source_archive_sha256": "68d1403c88a1d6055343efa5257d994a4f9d268b080920d85a1201d27b6962ee",
+  "uploaded_jar_sha256": "59ccbae5c2da7ef2f5e6364133fde4d493e46c675d3a8c896778d724110bcf68",
+  "packaged_jar_sha256": "52fbe633dd4eb5215968a40ddb30711a404abf9655e7e5b1e89bd3d52feec80c",
+  "jar_changed_entries": [
+    "debris-license-defaults.properties"
+  ],
+  "tests_passed": 57,
+  "live_end_to_end_tested": false,
+  "python": "3.14.7",
+  "dependencies": {
+    "aiogram": "3.31.0",
+    "SQLAlchemy": "2.0.52",
+    "aiosqlite": "0.22.1",
+    "python-dotenv": "1.2.3",
+    "aiohttp": "3.14.3"
+  },
+  "files": [
+    {
+      "path": ".dockerignore",
+      "size": 124,
+      "sha256": "ad0ea4f6c9a55cef09b3d1d6969f36a4959a3b47ff77f3d05158298cae2cc3c0"
+    },
+    {
+      "path": ".env.example",
+      "size": 1286,
+      "sha256": "bb94faa9532831a202c846b37ae066ce4ac1020b60776fb5eab340d0641738da"
+    },
+    {
+      "path": ".gitignore",
+      "size": 109,
+      "sha256": "c2bd6b5f5b336e44095707cfbc3336570279ef11d12174c29c2472833482b6f8"
+    },
+    {
+      "path": "assets/debris_banner.png",
+      "size": 192813,
+      "sha256": "4178654a6c4e679938cf207f4dde76d47e3e85f283e9a7879b961fd30204e9ef"
+    },
+    {
+      "path": "bot.py",
+      "size": 98679,
+      "sha256": "6b514c5159fffb6b0a72e5b53dfec4c38728b2e4ad267799e7e371dfcb296d34"
+    },
+    {
+      "path": "cloudflare_license_client.py",
+      "size": 5278,
+      "sha256": "c674c83ea7a803591092ae4ba9f513a4fbdbdf9ec0b1dfdb405cb34daae6aa46"
+    },
+    {
+      "path": "cloudflare_store.py",
+      "size": 11297,
+      "sha256": "c1b8cecaa78fd7004106679b365d1a809bec9a89d0d598f88b641eeebd069f38"
+    },
+    {
+      "path": "compose.yaml",
+      "size": 261,
+      "sha256": "44ec99e139179d38304fff19b10b3d1beb298fdc4d45b1752aa35034ecfb9985"
+    },
+    {
+      "path": "Debris-1.21.8-integrated.jar",
+      "size": 5847062,
+      "sha256": "52fbe633dd4eb5215968a40ddb30711a404abf9655e7e5b1e89bd3d52feec80c"
+    },
+    {
+      "path": "debris-release.jar",
+      "size": 5774060,
+      "sha256": "84eff41af361a49aa00fa791148c70e459b8aed2e49deb51419c187dc12427ff"
+    },
+    {
+      "path": "Dockerfile",
+      "size": 193,
+      "sha256": "94664b6573fa15a099c3091c216178a84877742d1505a0dd2f07bdaeae9f02b8"
+    },
+    {
+      "path": "install_dependencies.bat",
+      "size": 151,
+      "sha256": "ef510b1d235e6ba5c3e1bee022f3b7816a978f3f7c09b00a20eaeb9baefad218"
+    },
+    {
+      "path": "jar_delivery.py",
+      "size": 2850,
+      "sha256": "d020901c764a914b35277750e87a065e6e8687952c92fd5aa39b063df5d4b06f"
+    },
+    {
+      "path": "license_admin.py",
+      "size": 10932,
+      "sha256": "9f23ab0bd8da90f6a45b101cf11bbb184842f7ccf1d46fb4cd4261cbd036bac1"
+    },
+    {
+      "path": "license_api.py",
+      "size": 5207,
+      "sha256": "8867674ed59a749516a51c625da7e03c0640733e065c59b4e99801299aa983ee"
+    },
+    {
+      "path": "license_cli.py",
+      "size": 1699,
+      "sha256": "9cb42a62942e9c23c6a1da33b7fc449a4928623431b84fbb7b5dfb716922dc6e"
+    },
+    {
+      "path": "license_service.py",
+      "size": 17757,
+      "sha256": "4b99a3a57f57d205d67967178d4a3e3717ed9f2a41ce8cd8756ec44c15fc3160"
+    },
+    {
+      "path": "preflight.py",
+      "size": 2958,
+      "sha256": "da39060ed5fc854fe7ad0f5532eb321f70d2ab858995477d65aef37217971dac"
+    },
+    {
+      "path": "prepare_existing.py",
+      "size": 3518,
+      "sha256": "73622cf05dc94040160e3056e18cf09428eb1db1bb99d4097795463791232a80"
+    },
+    {
+      "path": "README_RU.md",
+      "size": 9414,
+      "sha256": "bd6202832da4b2c402d64427ca8536adffe6e3d1e2ace1373bbbfd1705be0860"
+    },
+    {
+      "path": "requirements-tested.txt",
+      "size": 90,
+      "sha256": "36c80b58c7b3ee41729ec8da8cc33e4783cb7eda38e9ab1ff48a652599a6da34"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95,
+      "sha256": "0c8d4524150c0a639893c494d4d6a033f3839f24a37c3e086aacf595cab97696"
+    },
+    {
+      "path": "schema.sql",
+      "size": 2044,
+      "sha256": "0446290a01899379ff17220263105e6db8ad0e5fcfa64cdaefe4c0027b81a6a2"
+    },
+    {
+      "path": "set_license_url.py",
+      "size": 904,
+      "sha256": "f343cf6d2ce00c963072e42c9cc2c2924d49f01ab6839bdd75eb29734cb4ceb8"
+    },
+    {
+      "path": "start.bat",
+      "size": 153,
+      "sha256": "d11c6d4dbfde7ff88c766cb6943b2526be704b5b3e92aaa7f038c9734f8f7f89"
+    },
+    {
+      "path": "start.sh",
+      "size": 138,
+      "sha256": "9cb48d9d05bcecbc106f2d747670a5c3a1ec41d651565eda896f12e72f3f73e4"
+    },
+    {
+      "path": "start_local_api.bat",
+      "size": 52,
+      "sha256": "3b54cf472def5c4e0373556ffec7543da3d55d24b5f2e7a4e60373a582054563"
+    },
+    {
+      "path": "subscription_store.py",
+      "size": 20731,
+      "sha256": "20867589b9e82541a7524be6907cdeb8a4d9d9e7e1417fe44548fa2e840145eb"
+    },
+    {
+      "path": "tests/live_client_test.py",
+      "size": 7404,
+      "sha256": "4c98e554a047191a7001706e9de05c0f6a013e7bab55086a889c9cc0fd212b83"
+    },
+    {
+      "path": "tests/live_java_integration.py",
+      "size": 6251,
+      "sha256": "e97b0e990ceb92ea775498fc0d6a0483ff4f6801a3220bdd0326735945c981e6"
+    },
+    {
+      "path": "tests/test_admin.py",
+      "size": 4565,
+      "sha256": "5257b5a827178aadfe6f17266158fd4540860fa8619d59f22b733f3d45ece394"
+    },
+    {
+      "path": "tests/test_cloudflare.py",
+      "size": 18180,
+      "sha256": "5986f8049c080cf35d526095879ecccbdeaa5137917091952a9e457194be4970"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "size": 18673,
+      "sha256": "58a7499eb254fd9792318e04b269924d043a9c5bd46952e08abcde8832eb8332"
+    },
+    {
+      "path": "tests/test_licenses.py",
+      "size": 11912,
+      "sha256": "63ddc93767c8b7c3171c19b6561795d8245b19580e3d8be1d70f223bbd4526d8"
+    },
+    {
+      "path": "VALIDATION.md",
+      "size": 3887,
+      "sha256": "994f113343c6bb58d45c0e21399db2d2ab24d522336a82ef3ecdc17adcdfcf2a"
+    }
+  ]
+}

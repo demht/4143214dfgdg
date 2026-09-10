@@ -1,0 +1,11 @@
+services:
+  debris-bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DB_PATH: /app/data/bot.db
+      RELEASES_DIR: /app/data/releases
+      DELIVERY_CACHE_DIR: /app/data/delivery-cache
+    volumes:
+      - ./data:/app/data
