@@ -1,1 +1,5 @@
--r 21313214de/requirements.txt
+aiogram==3.31.0
+SQLAlchemy==2.0.52
+aiosqlite==0.22.1
+python-dotenv==1.2.3
+aiohttp==3.14.3
